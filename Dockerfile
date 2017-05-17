@@ -1,6 +1,6 @@
 FROM centos:latest
 
-RUN yum install -y file
+RUN yum install -y file sudo
 
 RUN curl -sSf https://static.rust-lang.org/rustup.sh | sh
 
