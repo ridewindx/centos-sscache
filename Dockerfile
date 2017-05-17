@@ -1,6 +1,6 @@
 FROM centos:latest
 
-RUN yum install -y file sudo git
+RUN yum install -y file sudo git gcc-c++
 
 RUN curl -sSf https://static.rust-lang.org/rustup.sh | sh
 
